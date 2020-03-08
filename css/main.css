@@ -180,6 +180,9 @@ body {
   .footer{
     align-content: center
   }
+  body{
+    overflow-x: hidden;
+  }
 }
 /* // Footer */
 .nav-links li::after {
