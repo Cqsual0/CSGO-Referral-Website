@@ -180,7 +180,7 @@ body {
   .footer{
     align-content: center
   }
-  body{
+  html{
     overflow-x: hidden;
   }
 }
