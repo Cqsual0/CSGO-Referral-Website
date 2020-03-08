@@ -172,8 +172,10 @@ body {
      margin-bottom: 30px;
   }
   .ad-idle-empire img{
-    width: 60%;
+    width: 110%;
     height: auto;
+    position: relative;
+    left: -20px;
   }
   .footer{
     align-content: center
