@@ -84,20 +84,15 @@ body {
 }
 /* Footer */
 .footer{
-  position: absolute;
-  left: 0px;
-  width: 100vw;
   display: block;
-  overflow: hidden;
-  padding: 70px 0;
-  box-sizing: border-box;
-  background-color: #051622
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #051622;
 }
 .inner_footer{
-  display: block;
   margin: 0 auto;
-  width: 1100px;
-  height: 100%;
+    max-width: 1200
 }
 .inner_footer .logo_container{
   width: 35%;
