@@ -163,8 +163,13 @@ body {
 
   .inner_footer .logo_container,
   .inner_footer .footer_third{
-     width: 100%;
-     margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
   }
   .ad-idle-empire img{
     width: 110%;
