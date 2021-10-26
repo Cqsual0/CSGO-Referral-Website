@@ -92,7 +92,7 @@ body {
 }
 .inner_footer{
   margin: 0 auto;
-    max-width: 1200
+    max-width: 1200px;
 }
 .inner_footer .logo_container{
   width: 35%;
