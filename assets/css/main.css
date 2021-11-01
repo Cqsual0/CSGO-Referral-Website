@@ -13,10 +13,10 @@ body {
   text-transform: uppercase;
   color: white;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(171, 14, 192, 0.192);
+  border-bottom: 1px solid rgb(74 115 212);
 }
 .siteLinks .heading span {
-  color: #ab0ec0;
+  color: #4e82ff;
 }
 .siteLinks .buttons {
   display: flex;
@@ -82,6 +82,36 @@ body {
 .button-move{
   margin-top: 29px;
 }
+
+.nav-links li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #b9b9b9;
+  transition: width .3s;
+}
+
+.nav-links li:hover::after  {
+  width: 100%;
+}
+.logo span{
+  color: #4e82ff;
+}
+
+/* Advertisements */
+
+.ad-idle-empire{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 140px 0px 40px 0px;
+}
+.ad-idle-empire img{
+  min-width: 400px;
+}
+
+
 /* Footer */
 .footer{
   display: block;
@@ -147,15 +177,6 @@ body {
 }
 
 
-/* Advertisements */
-.ad-idle-empire img{
-  position: relative;
-  align-items: center;
-  left: 90px;
-  margin-bottom: 30px;
-}
-
-
 @media (max-width: 768px){
   .Footer .inner_footer{
     width: 90%
@@ -171,12 +192,6 @@ body {
     margin-bottom: 30px;
     text-align: center;
   }
-  .ad-idle-empire img{
-    width: 110%;
-    height: auto;
-    position: relative;
-    left: -20px;
-  }
   .footer{
     align-content: center
   }
@@ -184,23 +199,65 @@ body {
     overflow-x: hidden;
   }
 }
-/* // Footer */
-.nav-links li::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: #B10DC9;
-  transition: width .3s
+
+/* CARDS */
+
+.sites {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.card {
+  height: auto;
+  width: 260px;
+  border-radius: 6px;
+  background-color: #302f3e;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: 13px;
+
+}
+.card h2{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}
+.card h3{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: gray;
+}
+.image{
+  margin: 25px auto;
+}
+.bonus {
+  min-width: 230px;
+    flex-direction: row;
+    padding: 5px 30px;
+    border: 0;
+    background-color: #e4c55e;
+    color: #1f1a25;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.group-cards {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
+/*# Card Animation */
 
-.nav-links li:hover::after  {
-  width: 100%;
-  transition: width .3s;
+.card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 20px 10px rgba(17, 17, 17, 0.349);
 }
-
-
 
 
 /*# sourceMappingURL=main.css.map */
