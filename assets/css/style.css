@@ -6,19 +6,20 @@
 }
 nav{
   position: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: #302f3e;
-  width: 100%;
-  z-index: 2;
-  top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 8vh;
+background-color: #101820FF;
+width: 100%;
+z-index: 2;
+top: 0;
+flex-direction: column;
+border-bottom: #ffeb3b solid 2px;
 }
-.logo{
-  color: #f3f3f3;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+.logo img{
+  width: 128px;
+  height: auto;
 }
 .nav-links{
   display: flex;
@@ -130,7 +131,4 @@ toggle .line3{
 }
 toggle .line3{
   transition: rotate(45deg) translate(-5px, -6px);
-}
-.background{
-  background-color: #302F3D;
 }
