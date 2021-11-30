@@ -42,3 +42,25 @@ function popOff(identifier){
     inner.style.transform="scale(0)"
     console.log('ok')
 }
+
+
+// Read More
+function read_more_less()
+  {
+    var dots = document.getElementById('dots');
+
+    var moretext = document.getElementById('more');
+    var mybtn = document.getElementById('mybtn');
+
+    if (dots.style.display === 'none')
+    {
+      dots.style.display = 'inline';
+      moretext.style.display = 'none';
+      mybtn.innerHTML = "Read more";
+    }
+    else {
+      dots.style.display="none";
+      moretext.style.display ="inline";
+      mybtn.innerHTML = "Read less"
+    }
+  }

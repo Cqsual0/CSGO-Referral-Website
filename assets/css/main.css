@@ -131,7 +131,7 @@ border-bottom: 1px solid rgb(255 255 255);
   display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 600px 0px 40px 0px;
+    margin: 350px 0px 40px 0px;
 }
 .ad-idle-empire img{
   min-width: 400px;
@@ -289,5 +289,13 @@ margin: 15px auto;
   box-shadow: 0 20px 10px rgba(17, 17, 17, 0.349);
 }
 
+.post{
+  padding: 20px;
+  background: #f1f1f1;
+  font-size: 18px;
+}
+#more{
+  display: none;
+}
 
 /*# sourceMappingURL=main.css.map */
