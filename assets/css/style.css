@@ -6,16 +6,16 @@
 }
 nav{
   position: fixed;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 8vh;
-background-color: #101820FF;
-width: 100%;
-z-index: 2;
-top: 0;
-flex-direction: column;
-border-bottom: #ffeb3b solid 2px;
+  display: flex;
+  min-height: 8vh;
+  background-color: #101820FF;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  flex-direction: row;
+  border-bottom: #ffeb3b solid 2px;
+  justify-content: space-around;
+  align-items: center;
 }
 .logo img{
   width: 128px;
@@ -89,7 +89,7 @@ border-bottom: #ffeb3b solid 2px;
     position: fixed;
     right: 0px;
     height: 40vh;
-    top: 8vh;
+    top: 18vh;
     background-color: #302f3e;
     display: flex;
     flex-direction: column;

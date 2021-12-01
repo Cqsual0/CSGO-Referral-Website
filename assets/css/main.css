@@ -291,8 +291,14 @@ margin: 15px auto;
 
 .post{
   padding: 20px;
-  background: #f1f1f1;
-  font-size: 18px;
+    background: #3c3b4c;
+    font-size: 18px;
+    color: #a1a1a1;
+    line-height: 2;
+}
+.post h1{
+  color: #f2f2f2;
+  font-size: 22px;
 }
 #more{
   display: none;
