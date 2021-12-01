@@ -32,6 +32,8 @@ top: 10em;
   max-width: 1210px;
   margin: 30px auto;
   padding: 30px;
+  background: #13121a7d;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .siteLinks .heading {
   font-size: 18px;
@@ -292,7 +294,7 @@ margin: 15px auto;
 
 .post{
   padding: 20px;
-    background: linear-gradient(to top, #02020261, rgba(15, 15, 15, 0));
+  background: linear-gradient(to top, #1f1e30, rgba(15, 15, 15, 0));
     filter: drop-shadow(2px 4px 6px black);
     font-size: 18px;
     color: #a1a1a1;
@@ -304,6 +306,14 @@ margin: 15px auto;
 }
 #more{
   display: none;
+}
+.read-more{
+  width: 128px;
+height: 32px;
+color: black;
+background: #e4c55e;
+border: 2px solid #e4c55e;
+border-radius: 4px;
 }
 
 /*# sourceMappingURL=main.css.map */
