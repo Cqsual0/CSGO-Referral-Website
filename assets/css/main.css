@@ -271,11 +271,11 @@ width: 62px;
 z-index: 2;
 }
 .card-content{
-  background: #191726;
+  background: #454456;
     padding: 6px;
     border-radius: 42px;
     position: relative;
-    top: 170px;
+    top: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
