@@ -248,18 +248,22 @@ border-bottom: 1px solid rgb(255 255 255);
   margin: 13px;
 }
 .large-card{
-  float: left;
-  filter: drop-shadow(2px 4px 6px black);
-  height: 240px;
-  width: 600px;
-  border-radius: 6px;
-  background-color: #302f3e;
-  cursor: pointer;
-  transition: all 0.2s;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  margin: 13px;
+  position: relative;
+    float: left;
+    filter: drop-shadow(2px 4px 6px black);
+    height: 240px;
+    width: 550px;
+    border-radius: 6px;
+    background-color: #302f3e;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 13px;
+}
+.large-card img{
+  max-width: auto!important;
 }
 .card h2{
   font-size: 16px;
