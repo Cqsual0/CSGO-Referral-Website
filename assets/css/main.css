@@ -264,11 +264,8 @@ border-bottom: 1px solid rgb(255 255 255);
     z-index: 4;
 }
 .large-card img{
-  position: relative;
-bottom: 60px;
-right: 260px;
-width: 62px;
-z-index: 2;
+  position: relative
+    filter: opacity(0.5);
 }
 .card-content{
   background: #454456;
