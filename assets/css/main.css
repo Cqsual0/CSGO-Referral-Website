@@ -23,7 +23,7 @@ body {
   filter: blur(2px) brightness(0.4);
   width: 100%;
 position: absolute;
-top: 10em;
+top: 8em;
 }
 
 .siteLinks {
@@ -265,14 +265,10 @@ border-bottom: 1px solid rgb(255 255 255);
     z-index: 4;
 }
 .large-card:hover{
-  filter: blur(3);
-  filter: opacity(0.5);
+  filter: blur(2px) opacity(0.6);
+  transition: 2s;
 }
-.large-card img{
-  position: relative;
-    filter: opacity(0.5);
-    z-index: 11;
-}
+
 .card-content{
   background: #454456;
     padding: 6px;
