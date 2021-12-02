@@ -247,11 +247,11 @@ border-bottom: 1px solid rgb(255 255 255);
   color: white;
   margin: 13px;
 }
+
 .large-card{
   filter: drop-shadow(2px 4px 6px black);
     height: 240px;
     width: 550px;
-    background-image: width;
     border-radius: 6px;
     background-size: cover;
     background-image: url(file:///C:/Users/Cqsual/Desktop/Unfinished-CS-GO-Website/assets/Images/freeskins.jpg);
@@ -261,9 +261,27 @@ border-bottom: 1px solid rgb(255 255 255);
     text-align: center;
     color: white;
     margin: 13px;
+    z-index: 4;
 }
 .large-card img{
-
+  position: relative;
+bottom: 60px;
+right: 260px;
+width: 62px;
+z-index: 2;
+}
+.card-content{
+  background: #191726;
+    padding: 6px;
+    border-radius: 42px;
+    position: relative;
+    top: 170px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
 }
 .card h2{
   font-size: 16px;
