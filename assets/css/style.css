@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 nav{
-  position: fixed;
+  position: sticky;
   display: flex;
   min-height: 8vh;
   background-color: #161522;

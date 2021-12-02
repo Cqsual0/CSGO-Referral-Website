@@ -352,8 +352,57 @@ border: 2px solid #e4c55e;
 border-radius: 4px;
 }
 
-/*# Cards Test */
 
 
 
-/*# sourceMappingURL=main.css.map */
+
+
+
+
+
+/*# ABOUT US PAGE #2 */
+
+
+/*#
+
+- #1 - Article
+- #2 - Images
+
+ */
+
+ article{
+   padding: 4em 0em 4em 0em;
+    position: relative;
+   margin: 0 auto;
+   max-width: 1200px;
+   display: flex;
+ }
+ .introduction{
+   font-size: 18px;
+   color: #a1a1a1;
+   line-height: 2;
+   text-align: justify;
+ }
+ .introduction h1{
+   font-size: 32px;
+   color: #a1a1a1;
+   text-align: left;
+ }
+.side-bar{
+  display: flex;
+    margin: 4em;
+    flex-direction: column;
+    justify-content: center;
+}
+ .side-bar img{
+   width: 342px;
+   height: auto;
+   border-radius: 42px;
+ }
+ hr{
+   width: 200px;
+    background: #ffeb3b;
+    color: #eeec4b;
+    height: 3px;
+    border: #ffeb3b;
+ }
