@@ -248,22 +248,22 @@ border-bottom: 1px solid rgb(255 255 255);
   margin: 13px;
 }
 .large-card{
-filter: drop-shadow(2px 4px 6px black);
-height: 240px;
-width: 550px;
-border-radius: 6px;
-background-repeat: no-repeat;
-background-size: contain;
-background-image: url(file:///C:/Users/Cqsual/Desktop/Unfinished-CS-GO-Website/assets/Images/freeskins.jpg);
-cursor: pointer;
-transition: all 0.2s;
-padding: 20px;
-text-align: center;
-color: white;
-margin: 13px;
+  filter: drop-shadow(2px 4px 6px black);
+    height: 240px;
+    width: 550px;
+    background-image: width;
+    border-radius: 6px;
+    background-size: cover;
+    background-image: url(file:///C:/Users/Cqsual/Desktop/Unfinished-CS-GO-Website/assets/Images/freeskins.jpg);
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 13px;
 }
 .large-card img{
-  
+
 }
 .card h2{
   font-size: 16px;
