@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-color: #191824;
+  background-color: #0e0405;
 }
 
 /* custom scroll bar */
@@ -20,7 +20,7 @@ body {
 }
 
 .background img{
-  filter: blur(2px) brightness(1.2);
+  filter: blur(2px) brightness(0.8);
   width: 100%;
 position: absolute;
 top: 8em;
