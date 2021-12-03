@@ -13,7 +13,6 @@ nav{
   z-index: 2;
   top: 0;
   flex-direction: row;
-  border-bottom: #ffeb3b solid 2px;
   justify-content: space-around;
   align-items: center;
 }
