@@ -20,7 +20,7 @@ body {
 }
 
 .background img{
-  filter: blur(2px) brightness(0.4);
+  filter: blur(2px) brightness(1.2);
   width: 100%;
 position: absolute;
 top: 8em;
