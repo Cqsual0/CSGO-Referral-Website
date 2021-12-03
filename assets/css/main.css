@@ -370,18 +370,18 @@ border-radius: 4px;
 
  */
 
- article{
-   padding: 4em 0em 4em 0em;
+ .about-us{
+   padding: 4em 2em 4em 2em;
     position: relative;
-   margin: 0 auto;
-   max-width: 1200px;
-   display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
  }
  .introduction{
    font-size: 18px;
    color: #a1a1a1;
    line-height: 2;
-   text-align: justify;
+   text-align: center;
  }
  .introduction h1{
    font-size: 32px;
