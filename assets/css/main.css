@@ -392,7 +392,6 @@ border-radius: 4px;
   display: flex;
     margin: 4em;
     flex-direction: column;
-    justify-content: center;
 }
  .side-bar img{
    width: 342px;
