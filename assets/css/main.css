@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-color: #0e0405;
+  background-color: #0a0203;
 }
 
 /* custom scroll bar */
@@ -404,4 +404,10 @@ border-radius: 4px;
     color: #eeec4b;
     height: 3px;
     border: #ffeb3b;
+ }
+
+ .about-banner{
+   width: 100%;
+   height: auto;
+   position: relative;
  }
